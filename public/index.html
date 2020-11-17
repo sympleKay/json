@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <link rel="stylesheet" href="style.css">
+     <title>Calvary College of Technology</title>
+</head>
+<body>
+     <h1> Calvary College of  Technology </h1>
+     <div style= "text-align:center">
+          <a href="#"><button style="font-family:arial black;font-size:20px"> Home Page </button></a> 
+          <a href="#"><button style="font-family:arial black;font-size:20px"> Login Page </button></a>
+          <a href="#"><button style="font-family:arial black;font-size:20px"> About Us </button></a>
+          <a href="#"><button style="font-family:arial black;font-size:20px"> Contact </button></a>
+          <a href="/data"><button style="font-family:arial black;font-size:20px"> Records</button></a> 
+     </div>
+     <br>
+     <br>
+     <h2 style="color: maroon; font-family: monospace; font-size:28px"> Login Form</h2>
+     <p style="font-family: monospace; font-size: 20"><i><strong> please fill in your details </i></strong></p>
+     <div class="container">
+          <form action="/submit" method="POST">
+               <label for="surname"><b> Surname </b></label>
+               <input type="text" id="surname" name="surname" placeholder="surname">
+               <br><br>
+               <label for="fname"><b> First name </b></label>
+               <input type="text" id="fname" name="fname" placeholder="enter your first name...">
+               <br><br>
+               <label for="lname"><b> Last name </b></label>
+               <input type="text" id="lname" name="lname" placeholder="enter your last name...">
+               <br><br>
+               <label for="SSA"><b> Secondary School Attended</b></label>
+               <input type="text" name="ssa" id="SSA">
+               <br><br>
+               <label for="DCOS"><b> Desired Course of Study </b></label>
+               <input type="text" name="dcos" id="DCOS">
+               <br><br>
+               <label for="email"><b> E-mail </b></label>
+               <input type="text" id="email" name="email"  placeholder="enter your email...">
+               <br><br>
+               <label for="YOG"><b> Year of Graduation</b></label>
+               <input type="number" id="YOG" name="yog">
+               <label for="mobile_number"><b> Mobile number </b></label>
+               <input type="number" name="tel_no" id="mobile_number" placeholder="enter your mobile number...">
+               <label for="cities"><b> State </b></label>
+               <select id="cities" name="city">
+                    <option value="select "> select  </option>
+                    <option value="Abia"> Abuja </option>
+                    <option value="Abia "> Abia </option>
+                    <option value="Adamawa "> Adamawa  </option>
+                    <option value="Akwa Ibom"> Akwa Ibom </option>
+                    <option value="Anambra"> Anambra  </option>
+                    <option value="Bayelsa "> Bayelsa </option>
+                    <option value="Benue "> Benue </option>
+                    <option value="Borno "> Borno </option>
+                    <option value="Cross River "> Cross River </option>
+                    <option value="Delta "> Delta </option>
+                    <option value="Ebonyi "> Ebonyi </option>
+                    <option value="Edo "> Edo </option>
+                    <option value="Ekiti "> Ekiti </option>
+                    <option value="Enugu "> Enugu </option>
+                    <option value="Gombe "> Gombe </option>
+                    <option value="Imo "> Imo </option>
+                    <option value="Jigawa "> Jigawa </option>
+                    <option value="Kaduna "> Kaduna </option>
+                    <option value="Kano "> Kano </option>
+                    <option value="Katsina"> Katsina </option>
+                    <option value="Kebbi "> Kebbi </option>
+                    <option value="Kogi "> Kogi </option>
+                    <option value="Kwara "> Kwara </option>
+                    <option value="Lagos "> Lagos </option>
+                    <option value="Niger"> Niger </option>
+                    <option value="Ogun"> Ogun </option>
+                    <option value="Ondo"> Ondo </option>
+                    <option value="Osun"> Osun </option>
+                    <option value="Oyo"> Oyo </option>
+                    <option value="Plateau"> Plateau </option>
+                    <option value="Rivers"> Rivers </option>
+                    <option value="Sokoto"> Sokoto </option>
+                    <option value="Taraba"> Taraba </option>
+                    <option value="Yobe"> Yobe </option>
+                    <option value="Zamfara"> Zamfara </option>
+               </select>
+               <br><br>
+               <center>
+                    <button type="reset" class = "cancelbtn" > Reset </button>
+                    <button type="submit" class = "Submitbtn"> Submit </button>
+               </center>
+          </form>
+          <br><br>
+          <marquee behaviour="scroll" direction="left" scroll amount="20px"> Admission still in progress </marquee>
+     </div>
+     
+</body>
+</html>
+
+
